@@ -3,25 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F9318FB716F01BB24326F9D /* Pods_RSSReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B36CCAA5B3BBC3B220F726E /* Pods_RSSReader.framework */; };
+		FA05B8EB232F1F170061ADDA /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA05B8EA232F1F170061ADDA /* FeedViewController.swift */; };
+		FA05B8EF232F20A30061ADDA /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA05B8EE232F20A30061ADDA /* FeedModel.swift */; };
+		FA05B8F3232F21110061ADDA /* UITableView+Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA05B8F2232F21110061ADDA /* UITableView+Loading.swift */; };
+		FA05B8F7232F23470061ADDA /* FeedSourceItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA05B8F6232F23470061ADDA /* FeedSourceItemCell.swift */; };
+		FA49158F23339624008AA00C /* SourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49158E23339624008AA00C /* SourcesViewController.swift */; };
+		FA4915912333968C008AA00C /* SourcesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4915902333968C008AA00C /* SourcesViewModel.swift */; };
+		FA4B4CE623321A9700C8061D /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B4CE523321A9700C8061D /* ConnectionManager.swift */; };
+		FA4B4CEA23321BEC00C8061D /* XMLParserWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B4CE923321BEC00C8061D /* XMLParserWrapper.swift */; };
+		FA4B4CEC233283B800C8061D /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B4CEB233283B800C8061D /* FeedViewModel.swift */; };
+		FA4B4CEE23328CE700C8061D /* UIRefreshControl+ProgramaticallyRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B4CED23328CE700C8061D /* UIRefreshControl+ProgramaticallyRefresh.swift */; };
 		FAF689F72327E31700A99923 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF689F62327E31700A99923 /* AppDelegate.swift */; };
-		FAF689F92327E31700A99923 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF689F82327E31700A99923 /* ViewController.swift */; };
-		FAF689FC2327E31700A99923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF689FA2327E31700A99923 /* Main.storyboard */; };
 		FAF689FE2327E31A00A99923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF689FD2327E31A00A99923 /* Assets.xcassets */; };
 		FAF68A012327E31A00A99923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF689FF2327E31A00A99923 /* LaunchScreen.storyboard */; };
+		FAF68A1F2328347700A99923 /* UIImage+RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF68A1E2328347700A99923 /* UIImage+RoundedCorners.swift */; };
+		FAF68A2123283C8300A99923 /* ACTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF68A2023283C8300A99923 /* ACTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06C42BAB089D7E0943A1E9F8 /* Pods-RSSReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSReader.debug.xcconfig"; path = "Target Support Files/Pods-RSSReader/Pods-RSSReader.debug.xcconfig"; sourceTree = "<group>"; };
+		2B36CCAA5B3BBC3B220F726E /* Pods_RSSReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSSReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF330FDBABAA29B3B9C2ACB /* Pods-RSSReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSReader.release.xcconfig"; path = "Target Support Files/Pods-RSSReader/Pods-RSSReader.release.xcconfig"; sourceTree = "<group>"; };
+		FA05B8EA232F1F170061ADDA /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		FA05B8EE232F20A30061ADDA /* FeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
+		FA05B8F2232F21110061ADDA /* UITableView+Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Loading.swift"; sourceTree = "<group>"; };
+		FA05B8F6232F23470061ADDA /* FeedSourceItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedSourceItemCell.swift; sourceTree = "<group>"; };
+		FA49158E23339624008AA00C /* SourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourcesViewController.swift; sourceTree = "<group>"; };
+		FA4915902333968C008AA00C /* SourcesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourcesViewModel.swift; sourceTree = "<group>"; };
+		FA4B4CE523321A9700C8061D /* ConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		FA4B4CE923321BEC00C8061D /* XMLParserWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLParserWrapper.swift; sourceTree = "<group>"; };
+		FA4B4CEB233283B800C8061D /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		FA4B4CED23328CE700C8061D /* UIRefreshControl+ProgramaticallyRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+ProgramaticallyRefresh.swift"; sourceTree = "<group>"; };
 		FAF689F32327E31700A99923 /* RSSReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF689F62327E31700A99923 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAF689F82327E31700A99923 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FAF689FB2327E31700A99923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAF689FD2327E31A00A99923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAF68A002327E31A00A99923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAF68A022327E31A00A99923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF68A1E2328347700A99923 /* UIImage+RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+RoundedCorners.swift"; sourceTree = "<group>"; };
+		FAF68A2023283C8300A99923 /* ACTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F9318FB716F01BB24326F9D /* Pods_RSSReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4EA86FCEB0B07FB81E07920F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B36CCAA5B3BBC3B220F726E /* Pods_RSSReader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8DA542C7116B16FA52B0B2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06C42BAB089D7E0943A1E9F8 /* Pods-RSSReader.debug.xcconfig */,
+				5FF330FDBABAA29B3B9C2ACB /* Pods-RSSReader.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA05B8E2232F19A50061ADDA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA49158D23339577008AA00C /* Sources */,
+				FA05B8E3232F19B10061ADDA /* Feed */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FA05B8E3232F19B10061ADDA /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				FA05B8EE232F20A30061ADDA /* FeedModel.swift */,
+				FA4B4CEB233283B800C8061D /* FeedViewModel.swift */,
+				FA05B8EA232F1F170061ADDA /* FeedViewController.swift */,
+				FA05B8F4232F22170061ADDA /* Cells */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		FA05B8F4232F22170061ADDA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FA05B8F6232F23470061ADDA /* FeedSourceItemCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FA49158D23339577008AA00C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FA4915902333968C008AA00C /* SourcesViewModel.swift */,
+				FA49158E23339624008AA00C /* SourcesViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		FAF689EA2327E31700A99923 = {
 			isa = PBXGroup;
 			children = (
 				FAF689F52327E31700A99923 /* RSSReader */,
 				FAF689F42327E31700A99923 /* Products */,
+				E8DA542C7116B16FA52B0B2B /* Pods */,
+				4EA86FCEB0B07FB81E07920F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +135,35 @@
 		FAF689F52327E31700A99923 /* RSSReader */ = {
 			isa = PBXGroup;
 			children = (
+				FA05B8E2232F19A50061ADDA /* ViewControllers */,
+				FAF68A142327EA0400A99923 /* Helpers */,
+				FAF68A082327E35300A99923 /* Resources */,
+			);
+			path = RSSReader;
+			sourceTree = "<group>";
+		};
+		FAF68A082327E35300A99923 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				FAF689F62327E31700A99923 /* AppDelegate.swift */,
-				FAF689F82327E31700A99923 /* ViewController.swift */,
-				FAF689FA2327E31700A99923 /* Main.storyboard */,
 				FAF689FD2327E31A00A99923 /* Assets.xcassets */,
 				FAF689FF2327E31A00A99923 /* LaunchScreen.storyboard */,
 				FAF68A022327E31A00A99923 /* Info.plist */,
 			);
-			path = RSSReader;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAF68A142327EA0400A99923 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FAF68A1E2328347700A99923 /* UIImage+RoundedCorners.swift */,
+				FA05B8F2232F21110061ADDA /* UITableView+Loading.swift */,
+				FA4B4CED23328CE700C8061D /* UIRefreshControl+ProgramaticallyRefresh.swift */,
+				FAF68A2023283C8300A99923 /* ACTextField.swift */,
+				FA4B4CE523321A9700C8061D /* ConnectionManager.swift */,
+				FA4B4CE923321BEC00C8061D /* XMLParserWrapper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAF68A052327E31A00A99923 /* Build configuration list for PBXNativeTarget "RSSReader" */;
 			buildPhases = (
+				8A4F5A34784C24631B89C8FA /* [CP] Check Pods Manifest.lock */,
 				FAF689EF2327E31700A99923 /* Sources */,
 				FAF689F02327E31700A99923 /* Frameworks */,
 				FAF689F12327E31700A99923 /* Resources */,
+				C1BF8F3C6B56BD7537F029A6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,33 +228,77 @@
 			files = (
 				FAF68A012327E31A00A99923 /* LaunchScreen.storyboard in Resources */,
 				FAF689FE2327E31A00A99923 /* Assets.xcassets in Resources */,
-				FAF689FC2327E31700A99923 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A4F5A34784C24631B89C8FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RSSReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1BF8F3C6B56BD7537F029A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RSSReader/Pods-RSSReader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RSSReader/Pods-RSSReader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RSSReader/Pods-RSSReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FAF689EF2327E31700A99923 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAF689F92327E31700A99923 /* ViewController.swift in Sources */,
+				FA4915912333968C008AA00C /* SourcesViewModel.swift in Sources */,
+				FA4B4CEC233283B800C8061D /* FeedViewModel.swift in Sources */,
+				FA4B4CEE23328CE700C8061D /* UIRefreshControl+ProgramaticallyRefresh.swift in Sources */,
+				FA05B8F7232F23470061ADDA /* FeedSourceItemCell.swift in Sources */,
 				FAF689F72327E31700A99923 /* AppDelegate.swift in Sources */,
+				FAF68A1F2328347700A99923 /* UIImage+RoundedCorners.swift in Sources */,
+				FA49158F23339624008AA00C /* SourcesViewController.swift in Sources */,
+				FA4B4CE623321A9700C8061D /* ConnectionManager.swift in Sources */,
+				FA05B8EB232F1F170061ADDA /* FeedViewController.swift in Sources */,
+				FAF68A2123283C8300A99923 /* ACTextField.swift in Sources */,
+				FA05B8F3232F21110061ADDA /* UITableView+Loading.swift in Sources */,
+				FA4B4CEA23321BEC00C8061D /* XMLParserWrapper.swift in Sources */,
+				FA05B8EF232F20A30061ADDA /* FeedModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FAF689FA2327E31700A99923 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAF689FB2327E31700A99923 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FAF689FF2327E31A00A99923 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,11 +428,13 @@
 		};
 		FAF68A062327E31A00A99923 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06C42BAB089D7E0943A1E9F8 /* Pods-RSSReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QJ27XL63TX;
-				INFOPLIST_FILE = RSSReader/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RSSReader/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +448,13 @@
 		};
 		FAF68A072327E31A00A99923 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FF330FDBABAA29B3B9C2ACB /* Pods-RSSReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QJ27XL63TX;
-				INFOPLIST_FILE = RSSReader/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RSSReader/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
